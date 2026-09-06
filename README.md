@@ -53,3 +53,9 @@ This repository provides reusable IAM policies and tagging strategies to enable 
     }
   ]
 }
+
+## How to Connect
+Ensure the AWS CLI and Session Manager Plugin are installed, then connect via:
+
+# Bash
+aws ssm start-session --target i-0123456789abcdef0
